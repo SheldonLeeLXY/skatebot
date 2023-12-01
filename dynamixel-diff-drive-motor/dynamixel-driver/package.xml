@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <!-- FIXME Change name.  Must match the project name in CMakeLists.txt -->
+  <name>dynamixel_driver</name>
+  <version>0.0.1</version>
+  <!-- FIXME Change description -->
+  <description>A ROS 2 driver for Dynamixels.</description>
+  <!-- FIXME Change email -->
+  <maintainer email="a.j.blight@leeds.ac.uk">Andy Blight</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- Test dependencies. -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- ROS dependencies. -->
+  <depend>rclcpp</depend>
+  <depend>rclcpp_components</depend>
+  <depend>diagnostic_msgs</depend>
+  <depend>dynamixel_sdk</depend>
+  <depend>geometry_msgs</depend>
+  <depend>pipebot_msgs</depend>
+  <depend>sensor_msgs</depend>
+
+  <!-- FIXME Add other packages as needed -->
+
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
